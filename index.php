@@ -83,6 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 // HTML de inicio de sesión o registro si no está logueado
 if (!isset($_SESSION['user'])) {
     echo '<link rel="stylesheet" href="estilos.css">';
+    echo '<link rel="icon" type="image/svg+xml" href="darkkhaki.png">';
     echo '<div class="login-form">';
     echo '<title>Darkkhaki</title>';
     echo '<h1><img src="darkkhaki.png"> darkhkaki</h1>';
