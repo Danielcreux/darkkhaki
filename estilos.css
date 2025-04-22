@@ -1,0 +1,176 @@
+@import url('https://static.jocarsa.com/fuentes/ubuntu-font-family-0.83/ubuntu.css');
+
+
+body {
+    font-family: Ubuntu, Arial, sans-serif;
+    background-color: #f4f7f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+title{
+    text-align:  center;
+    font-size: 50px;
+    margin: auto;
+    
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+h1 img{
+    width: 110px;
+    margin-right: 60px;
+}
+h2, h3 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.login-form {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input, .login-form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.login-form button {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-form button:hover {
+    background-color: #2980b9;
+}
+
+.bienvenida {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.bienvenida a {
+    color: #f1c40f;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.total {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.calendarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.mes {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 456px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.dia, .dia-titulo, .dia-vacio {
+    text-align: center;
+    padding: 5px;
+}
+
+.dia-titulo {
+    font-weight: bold;
+    background: #ecf0f1;
+    border-radius: 5px;
+}
+
+.dia input {
+    width: 90%;
+    margin-top: 5px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.dia span {
+    display: block;
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+button[name="guardar_horas"] {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 30px;
+    background-color: #27ae60;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button[name="guardar_horas"]:hover {
+    background-color: #1e8449;
+}
+
+ul {
+    max-width: 500px;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px 10px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
